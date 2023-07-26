@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <center><h1>Agregar Producto(s)</h1></center>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <center>
+    <form action="add_product.php" method="post">
+        <label for="Name">Nombre del producto:</label>
+        <input type="text" id="Name" name="Name" required><br>
+
+        <label for="Ref">Referencia:</label>
+        <input type="text" id="Ref" name="Ref" required><br>
+
+        <label for="Price">Precio:</label>
+        <input type="number" id="Price" name="Price" required><br>
+
+        <label for="Weight">Peso en gramos:</label>
+        <input type="number" id="Weight" name="Weight" required><br>
+
+        <label for="Category">Categoria:</label>
+        <input type="text" id="Category" name="Category" required><br>
+
+        <label for="Stock">Stock:</label>
+        <input type="number" id="Stock" name="Stock" required><br>
+
+        <label for="Creation_Date">Fecha de creacion:</label>
+        <input type="date" id="Creation_Date" name="Creation_Date" required><br>
+
+        <input type="submit" value="Agregar Producto">
+    </form>
+        <!--Botón Volver-->
+        <a href="product_menu.php">Volver</a>
+    </center>
+</body>
+</html>

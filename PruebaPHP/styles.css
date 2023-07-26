@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a05000ab;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center
+}
+
+/* Estilos para el contenedor principal de la página */
+.container {
+    width: 100%;
+    height: 12vh; /* Establecer el alto del contenedor al 100% del alto de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_cont {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d1803;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+/* Estilos para el formulario */
+form {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para los campos de entrada de texto */
+input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    width: 100%;
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para la tabla de productos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+    text-align: left;
+}
+
+/* Estilos para el menú principal */
+ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para los botones del menú */
+.menu-button {
+    display: inline-block;
+    padding: 5px 7px;
+    background-color: #faf2e9;
+    color: #ffffff;
+    border-color: #2d1803;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-submit-button {
+    display: inline-block;
+    padding: 5px 7px;
+    background-color: #ffffff;
+    color: #ffffff;
+    border-color: #2d1803;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button:hover {
+    background-color: #855A1D;
+}
