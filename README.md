@@ -58,5 +58,13 @@ Fecha de Creación:
 
 Notas Finales:
 
+### Query's directos a BD 
+Realizar una consulta que permita conocer cuál es el producto que más stock tiene: (TABLA "productos")
+- SELECT MAX(stock), Name from productos
+
+Realizar una consulta que permita conocer cuál es el producto más vendido: (TABLA "ventas")
+- SELECT MAX(Sale_Qty), ID_Product from ventas
+
+
 Este proyecto fue creado como parte de una prueba técnica y se proporciona como ejemplo de habilidades de programación y desarrollo web. Es posible que el proyecto pueda ampliarse y mejorarse para su uso en un entorno de producción real. Cualquier sugerencia o comentario sobre el proyecto será bien recibido.
 
