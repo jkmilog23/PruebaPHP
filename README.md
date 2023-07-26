@@ -56,7 +56,7 @@ Fecha de Creación:
 
 (26/07/2023)
 
-Notas Finales:
+## Notas Finales:
 
 ### Query's directos a BD 
 Realizar una consulta que permita conocer cuál es el producto que más stock tiene: (TABLA "productos")
